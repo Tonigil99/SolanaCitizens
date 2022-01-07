@@ -1,0 +1,357 @@
+@font-face {
+  font-family: "solanacity";
+  src: url("fonts/upheavtt.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  margin: 0%;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background: #fff6bf;
+
+  
+}
+
+header nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100px;
+  margin-bottom: 0;
+
+}
+header nav .logo {
+  display: block;
+  height: 50px;
+  width: 500px;
+  float: left;
+  font-family: "solanacity";
+  font-size: 2.441rem;
+  cursor: pointer;
+  margin-bottom: 0;
+
+}
+header nav ul {
+  list-style: none;
+  float: right;
+}
+header span {
+  display: none;
+  font-size: 0px;
+}
+header nav ul li {
+  float: left;
+  font-size: 12px;
+  margin: 25px 10px;
+  font-weight: 400;
+}
+header nav ul li a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#navmenu{
+  margin-bottom: 0;
+
+}
+
+/*footer*/
+footer {
+  height: 100px;
+  width: 100%;
+  background: #ff9cd5;
+}
+
+footer nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100px;
+}
+footer nav .logo {
+  display: block;
+  height: 50px;
+  width: 500px;
+ margin-bottom: 0;
+  float: left;
+  font-family: "solanacity";
+  font-size: 2.441rem;
+  cursor: pointer;
+}
+footer nav ul {
+  list-style: none;
+  float: right;
+}
+footer span {
+  display: none;
+  font-size: 0px;
+}
+footer nav ul li {
+  float: left;
+  font-size: 12px;
+  margin: 25px 10px;
+  font-weight: 400;
+}
+footer nav ul li a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*-----------*/
+.section {
+  font-family: "solanacity";
+  background-color: #ff9cd5;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+
+
+}
+
+.paragraph {
+  color: #ffff;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-size: 1.953rem;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 5%;
+
+}
+
+.title {
+  font-size: 24px;
+  color: #fff6bf;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-size: 3.052rem;
+  position: absolute;
+  text-align: center;
+  margin-left: 5%;
+}
+
+#image {
+  max-width: 40%;
+  max-height: 40%;
+  float: right;
+  margin-right: 2%;
+  animation-duration: 3s;
+  animation-name: slidein;
+  margin-top: 0;
+
+
+  /*SECTION 2*/
+}
+.seccion2 {
+  font-family: "solanacity";
+  background-color: #ff9cd5;
+  height: 600px;
+}
+.tituloS2 {
+  color: #fff6bf;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-size: 7.451rem;
+  margin-top: 0;
+}
+.divS2 {
+  text-align: center;
+}
+
+.botonS2 {
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 2%;
+  background-color: #80ccff;
+}
+.botonS2:hover {
+  box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24),
+    0 17px 50px 0 rgba(255, 255, 255, 0.16);
+}
+.textobotonS2 {
+  font-family: "solanacity";
+  color: #ffff;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-size: 4.052rem;
+}
+
+.sectionroad{
+  margin-bottom: 0;
+  background-color: #fff6bf;
+}
+.roadmap {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  
+}
+.countdown {
+  font-size: 2.552rem;
+  color: #ffff;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+
+/* Section Faqs */
+
+.sectionfaqs{
+  background: #fff6bf;
+  margin: 0%;
+
+  font-family: "solanacity";
+  height: 800px;
+
+}
+.Faq{
+  text-align: center;
+  margin-top: 0;
+  color: #ff9cd5;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-family: "solanacity";
+  font-size: 6.451rem;
+}
+
+
+
+.faq {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.centerplease {
+  font-size: 40px;
+}
+
+.question {
+    color:#0000;
+  font-weight: normal;
+  position: relative;
+  background: #ffff;
+
+  opacity: .9;
+  padding: 10px 10px 10px 50px;
+  display: block;
+  cursor: pointer;
+  text-shadow:-1px 1px 0px #000, -2px 2px 0px #000;
+  font-size: 1.563rem;
+}
+.question{
+  height: 60px;
+  border-radius: 4px;
+
+}
+
+
+.answers {
+  
+  text-shadow: 0.1em 0.1em 0.2em black;
+  background: #80ccff;
+  padding: 0px 15px;
+  margin: 0 0 7px 0;
+  height: 0;
+  overflow: hidden;
+  color: #ffff;
+  font-size: 1.563rem;
+  z-index: 10;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .7s ease;
+  -moz-transition: .7s ease;
+  -o-transition: .7s ease;
+  transition: .7s ease;
+}
+
+.questions:checked ~ .answers{
+  height: auto;
+  opacity: 1;
+  padding: 15px;
+}
+
+.plus {
+  color: #ff9cd5;
+  position: absolute;
+  margin-left: 10px;
+  z-index: 5;
+  font-size: 1.8em;
+  line-height: 100%;
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.questions:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.questions {
+  display: none;
+}
+
+.sectionteam{
+  text-align: center;
+  background: #fff6bf;
+  margin: 0%;
+ font-family: "solanacity";
+  height: 800px;
+}
+
+.Team{
+  text-align: center;
+  margin-top: 0;
+  color: #ff9cd5;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-family: "solanacity";
+  font-size: 6.451rem;
+}
+
+.divImagen{
+  display: inline-block;
+ margin: 2%;
+}
+#imagenteam {
+  width: 318.75px;
+  height: 425px;
+  
+}
+.divImagen:hover {
+  -webkit-transform:scale(1.2);transform:scale(1.2);
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.divImagen {
+  overflow:hidden;
+}
+.discord{
+  width: 30px;
+  height: 30px;
+}
+.botonS1{
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 2%;
+  background-color: #80ccff;
+}
+.textobotonS1{
+  font-family: "solanacity";
+  color: #ffff;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  text-align: center;
+  margin: 0 auto;
+}
